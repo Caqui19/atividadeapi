@@ -4,12 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Localização ISS</title>
+    <title>Demon Slayer Wiki</title>
+    <link rel="icon" type="image/x-icon" href="../assets/iconKimetsu.png" />
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap%22
+        rel=" stylesheet">
 </head>
 
 <body>
-
+    <header>
+        <img src="../assets/Demon-Slayer-Logo.png" alt="Demon Slayer Logo" class="logo" style="width: 150px;">
+    </header>
+    <main>
+        <section>
+            <h1>Bem-vindo à Demon Slayer Wiki</h1>
+            <p>Comece com uma pesquisa</p>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Pesquise aqui...">
+                <button id="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </section>
+        <section>
+            <h2>Resultados da Pesquisa</h2>
+            <br>
+            <div class="cards-container" id="cardsContainer"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Alvaro Takeshi e Isaac Oliveira</p>
+    </footer>
     <script src="./script.js"></script>
 </body>
 
